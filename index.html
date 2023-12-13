@@ -6,6 +6,8 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>World Clock</title>
     <link rel="stylesheet" href="src/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.4/moment.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.43/moment-timezone-with-data-10-year-range.js"></script>
   </head>
   <body>
     <div class="container">
@@ -18,34 +20,34 @@
         <option value="auckland">Auckland</option>
       </select>
 
-      <div class="city">
+      <div class="city" id="los-angeles">
         <div>
           <h2>Los Angeles</h2>
-          <div class="date">December 12th, 2023</div>
+          <div class="date"></div>
         </div>
-        <div class=">time">12:54 <small> PM </small></div>
+        <div class="time"></div>
       </div>
+
+      <div class="city" id="paris">
         <div>
           <h2>Paris</h2>
-          <div class="date">December 12th, 2023</div>
+          <div class="date"></div>
         </div>
-        <div class=">time">12:54 <small> PM </small></div>
+        <div class="time"></div>
       </div>
-      <footer>
-        This project was coded by
-        <a href="https://github.com/SpectreKitty" target="_blank"
-          >Astry Brana </a
-        >open-sourced on
-        <a href="https://github.com/SpectreKitty/world-clock" target="_blank">
-          GitHub</a
-        >
-        hosted on
-        <a href="https://worldclockbyastry.netlify.app/" target="_blank"
-          >Netlify</a
-        >
-      </footer>
     </div>
-
+    <footer>
+      This project was coded by
+      <a href="https://github.com/SpectreKitty" target="_blank">Astry Brana </a
+      >open-sourced on
+      <a href="https://github.com/SpectreKitty/world-clock" target="_blank">
+        GitHub</a
+      >
+      hosted on
+      <a href="https://worldclockbyastry.netlify.app/" target="_blank"
+        >Netlify</a
+      >
+    </footer>
     <script src="src/app.js"></script>
   </body>
 </html>
